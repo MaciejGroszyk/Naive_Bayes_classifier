@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "Random Forest with Naive Bayes Classifiers as leaves"
+version = "0.1.0"
+description = ""
+authors = ["Piotr Hondra <piotr.hondra@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^21.12b0"
+pytest = "^6.2.5"
+pandas = "^1.3.5"
+sklearn = "^0.0"
+ipykernel = "^6.7.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+autopep8 = "^1.6.0"
+flake8 = "^4.0.1"
+yapf = "^0.32.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
